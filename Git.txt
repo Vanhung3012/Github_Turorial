@@ -1,0 +1,29 @@
+Tại sao phải có Git?
+1. Theo dõi, kiểm soát thay đổi trong code của bạn
+2. Giúp đồng bộ hóa code của bạn
+3. Tạo tính năng mới mà khong muốn mất tính năng cũ
+4. Quay trở lại phiên bản cũ hơn code của bạn
+
+*Các lệnh git:
+git --version : Kiểm tra phiên bản git
+git config --global user.name VanHung
+git config --global user.email hovanhung431013@gmail.com
+git config --list: Xem config
+git init: Để khởi chạy Repo
+clear: Làm trống
+git remote add origin [Github_Repo_URL]
+git clone [Github_Repo_URL]: Tải Remote Repo xuống máy tính
+git add "file"	
+git commit -m "Mô tả sự thay đổi" 
+git commit --amend -m "Thay đổi mô tả"
+git push origin [branch-name]
+git add. : add tất cả những thay đổi
+code .
+git status: Xem trạng thái
+git diff so sánh sự khác nhau giữa các commit
+git log -oneline: liệt kê ra các commit
+git reset
+cd .. thoát khỏi folder
+cd [file] : Vào thư mục
+git fetch : Thêm những thay đổi trên Github
+git pull
